@@ -1,0 +1,27 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+canvas {
+    border: 10px solid black;
+    margin: auto;
+    display: block;
+}
+
+#addFish {
+    display: block;
+    margin: 10px auto;
+}
+
+#fishCounter{
+font-weight: bold;
+padding-left: 10px;
+text-align: right;
+position: absolute;
+bottom: 36px;
+right: 50px;
+}
+
+#fishCounter::before {
+    content:"numero di pesci: "
+}
